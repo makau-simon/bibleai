@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Bible AI</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h3 class="title"><span>B</span>ible <span>C</span>ontext <span>A</span>I</h3>
+  <div id="header">
+    <input type="text" id="verse" placeholder="eg. 1 peter 1:14-15" />
+    <button id="getContext">Generate Context</button>
+  </div>
+  
+  <div id="results">
+    <div id="area"></div>
+    <div id="buttons">
+      <button id="exportPdf">Export as pdf</button>
+    </div>
+  </div>
+  <div id="loading-screen">
+      <div class="object"></div>
+      <div class="object"></div>
+      <div class="object"></div>
+      <div class="object"></div>
+      <div class="object"></div>
+      <div class="object"></div>
+      <div class="object"></div>
+  </div>
+  <script src="main.js"></script>
+  <script src="marked.min.js"></script>
+  <script src="html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
