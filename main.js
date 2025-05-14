@@ -8,7 +8,7 @@ const results = document.querySelector("#results")
 
 const getContextBtn = document.querySelector("#getContext")
 
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "YOUR_API_KEY";
 
 const url = "https://openrouter.ai/api/v1/chat/completions";
 
